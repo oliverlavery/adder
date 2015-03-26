@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adder", "Adder.vcproj", "{B718B056-A4B5-4912-ABA6-3D4AFE7D6A77}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdderLoad", "..\AdderLoad\AdderLoad.vcproj", "{8A6C6A79-6A23-4E4E-9DAE-8C30B8AB1762}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B718B056-A4B5-4912-ABA6-3D4AFE7D6A77}.Debug.ActiveCfg = Debug|Win32
+		{B718B056-A4B5-4912-ABA6-3D4AFE7D6A77}.Debug.Build.0 = Debug|Win32
+		{B718B056-A4B5-4912-ABA6-3D4AFE7D6A77}.Release.ActiveCfg = Release|Win32
+		{B718B056-A4B5-4912-ABA6-3D4AFE7D6A77}.Release.Build.0 = Release|Win32
+		{8A6C6A79-6A23-4E4E-9DAE-8C30B8AB1762}.Debug.ActiveCfg = Debug|Win32
+		{8A6C6A79-6A23-4E4E-9DAE-8C30B8AB1762}.Debug.Build.0 = Debug|Win32
+		{8A6C6A79-6A23-4E4E-9DAE-8C30B8AB1762}.Release.ActiveCfg = Release|Win32
+		{8A6C6A79-6A23-4E4E-9DAE-8C30B8AB1762}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

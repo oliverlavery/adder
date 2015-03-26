@@ -1,0 +1,20 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: adelib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "link.exe -lib /nologo /out:"Debug\adelib.lib"  .\ADE32.OBJ "
+<h3>Output Window</h3>
+Creating library...
+.\ADE32.OBJ : warning LNK4033: converting object format from OMF to COFF
+
+
+
+<h3>Results</h3>
+adelib.lib - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

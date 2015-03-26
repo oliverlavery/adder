@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libdisasm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "g:\Temp\RSP76.tmp" with contents
+[
+/nologo /ML /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/libdisasm.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\Python23\Src\Adder\Adder\libdisasm\src\i386.c"
+"G:\Python23\Src\Adder\Adder\libdisasm\src\i386_invariant.c"
+"G:\Python23\Src\Adder\Adder\libdisasm\src\libdis.c"
+]
+Creating command line "cl.exe @g:\Temp\RSP76.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\libdisasm.lib"  .\Release\i386.obj .\Release\i386_invariant.obj .\Release\libdis.obj "
+<h3>Output Window</h3>
+Compiling...
+i386.c
+i386_invariant.c
+libdis.c
+G:\Python23\Src\Adder\Adder\libdisasm\src\libdis.c(143) : warning C4047: '==' : 'char *' differs in levels of indirection from 'const int '
+Creating library...
+
+
+
+<h3>Results</h3>
+libdisasm.lib - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
